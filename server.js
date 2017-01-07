@@ -50,6 +50,13 @@ app.get('/about', (req, res) => {
     });
 });
 
+app.get('/projects', (req, res) => {
+    res.render('projects.hbs', {
+        pageTitle: 'Project Page', 
+        welcomeMessage: 'Welcome to my Projects Page'
+    });
+});
+
 app.get('/bad', (req, res) => {
     res.send({
         error: "Page not found"    
