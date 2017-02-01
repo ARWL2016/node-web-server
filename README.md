@@ -18,5 +18,5 @@ https://github.com/ARWL2016/node-web-server
 4. Use `hbs.registerPartials()` and pass in the url to use partials. 
 5. The server.js also demos a server.log function  
 
-
+Note that an alternative module *express-handlebars* is used in Jonathan Mills Node course on Pluralsight, but the setup is not as simple as hbs. 
 
